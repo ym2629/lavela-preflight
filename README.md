@@ -44,6 +44,12 @@ Example prompts:
 - **Honest limits.** Every report separates what was verified in the code from what needs a person or a dashboard.
 - **No data leaves your machine.** The plugin has no hooks, no MCP servers and no network access of its own. Your assistant processes your code the same way it does when you ask it any question.
 
+## Privacy
+
+lavela-preflight does not collect, store or send any data, and the authors receive nothing from it. It has no server, no hooks, no MCP servers and no network access of its own. While a check runs it only reads files in your project folder and runs a few read-only git commands; the report appears in your own Claude Code session. Secret values are never printed, and `.env` files are not opened.
+
+As with any request you make to Claude, the file contents Claude reads in that session are handled under the terms of your own Claude plan and [Anthropic's privacy policy](https://www.anthropic.com/legal/privacy). If your project contains personal data (for example sample records), the plugin may read it while checking, but it does not copy or keep it. Questions: open an issue on this repository.
+
 ## Limits
 
 It reads code; it cannot see your hosting, database or payment dashboards, whether your keys are real, or what runs in front of your server. It is not a replacement for a penetration test or a legal review.

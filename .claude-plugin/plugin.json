@@ -3,9 +3,19 @@
   "displayName": "lavela preflight",
   "description": "Read-only pre-deployment checks for apps and games built with AI: leaked keys, who can see your data, server settings, errors, surprise costs, data loss, and a post-launch checklist.",
   "version": "1.0.0",
-  "author": { "name": "lavela", "url": "https://lavela.dev" },
+  "author": {
+    "name": "lavela",
+    "url": "https://lavela.dev"
+  },
   "homepage": "https://github.com/ym2629/lavela-preflight",
   "repository": "https://github.com/ym2629/lavela-preflight",
   "license": "MIT",
-  "keywords": ["deploy", "security", "checklist", "pre-launch", "vibe-coding"]
+  "keywords": [
+    "deploy",
+    "security",
+    "checklist",
+    "pre-launch",
+    "vibe-coding"
+  ],
+  "privacyPolicyUrl": "https://github.com/ym2629/lavela-preflight#privacy"
 }
