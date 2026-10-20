@@ -1,6 +1,6 @@
 ---
 name: server-ready
-description: Read-only check of what breaks when an app moves from the developer machine to a server: build and start commands, versions, port, required environment variable names, localhost addresses, debug leftovers, and file-name capitalization. Use before deploying.
+description: "Read-only check of what breaks when an app moves from the developer machine to a server: build and start commands, versions, port, required environment variable names, localhost addresses, debug leftovers, and file-name capitalization. Use before deploying."
 allowed-tools: Read Grep Glob Bash(git log *) Bash(git ls-files *) Bash(git check-ignore *)
 disallowed-tools: Edit Write NotebookEdit
 disable-model-invocation: true

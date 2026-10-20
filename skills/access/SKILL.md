@@ -1,6 +1,6 @@
 ---
 name: access
-description: Read-only check of who can see or change data: public pages and endpoints, missing ownership checks, admin features hidden only in the UI, and database access rules (Supabase RLS, Firebase rules). Use before deploying.
+description: "Read-only check of who can see or change data: public pages and endpoints, missing ownership checks, admin features hidden only in the UI, and database access rules (Supabase RLS, Firebase rules). Use before deploying."
 allowed-tools: Read Grep Glob Bash(git log *) Bash(git ls-files *) Bash(git check-ignore *)
 disallowed-tools: Edit Write NotebookEdit
 disable-model-invocation: true

@@ -1,6 +1,6 @@
 ---
 name: post-launch
-description: Builds a project-specific checklist to follow right after going live: open the site as a stranger, test sign-up and key flows with a fresh account, mobile view, emails, errors, monitoring and rollback. Use after deploying.
+description: "Builds a project-specific checklist to follow right after going live: open the site as a stranger, test sign-up and key flows with a fresh account, mobile view, emails, errors, monitoring and rollback. Use after deploying."
 allowed-tools: Read Grep Glob
 disallowed-tools: Edit Write NotebookEdit
 disable-model-invocation: true

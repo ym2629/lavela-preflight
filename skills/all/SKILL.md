@@ -1,6 +1,6 @@
 ---
 name: all
-description: Runs the seven read-only pre-deployment checks in order (secrets, access, server-ready, errors, cost, data, post-launch) and ends with the five most important things to fix. Optional payments and privacy check if the app needs it.
+description: "Runs the seven read-only pre-deployment checks in order (secrets, access, server-ready, errors, cost, data, post-launch) and ends with the five most important things to fix. Optional payments and privacy check if the app needs it."
 allowed-tools: Read Grep Glob Bash(git log *) Bash(git ls-files *) Bash(git check-ignore *)
 disallowed-tools: Edit Write NotebookEdit
 disable-model-invocation: true

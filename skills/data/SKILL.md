@@ -1,6 +1,6 @@
 ---
 name: data
-description: Read-only check of where an app keeps its data and whether it survives restarts, redeploys and mistakes: databases, local files, browser storage, dev versus production data, backups and rollback. Use before deploying.
+description: "Read-only check of where an app keeps its data and whether it survives restarts, redeploys and mistakes: databases, local files, browser storage, dev versus production data, backups and rollback. Use before deploying."
 allowed-tools: Read Grep Glob Bash(git log *) Bash(git ls-files *) Bash(git check-ignore *)
 disallowed-tools: Edit Write NotebookEdit
 disable-model-invocation: true

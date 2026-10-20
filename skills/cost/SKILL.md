@@ -1,6 +1,6 @@
 ---
 name: cost
-description: Read-only check for places where usage can make the bill grow unexpectedly: unauthenticated AI calls, missing rate limits and size limits, retries without a cap, and provider spending limits. Use before deploying.
+description: "Read-only check for places where usage can make the bill grow unexpectedly: unauthenticated AI calls, missing rate limits and size limits, retries without a cap, and provider spending limits. Use before deploying."
 allowed-tools: Read Grep Glob Bash(git log *) Bash(git ls-files *) Bash(git check-ignore *)
 disallowed-tools: Edit Write NotebookEdit
 disable-model-invocation: true

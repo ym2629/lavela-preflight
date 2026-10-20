@@ -15,6 +15,28 @@ claude plugin install lavela-preflight@lavela
 
 Or inside a Claude Code session: `/plugin marketplace add ym2629/lavela-preflight`, then `/plugin install lavela-preflight@lavela`.
 
+## Install in other AI coding tools
+
+The checks are plain `SKILL.md` files, so tools that read the open agent-skills format can use them too. In your project folder run:
+
+```bash
+npx skills add ym2629/lavela-preflight
+```
+
+The `skills` CLI asks which tool to install them into (`npx skills add --help` lists the options). The read-only promise is enforced by Claude Code, which switches edit tools off while a check runs. In other tools, use their plan or ask mode and keep every prompt's "do not fix anything" instruction.
+
+## Built it with Lovable, Bolt, v0, Replit or Cursor?
+
+These checks review the code in a project folder, so they work on an app you built with an AI app builder once the code is in a GitHub repository or a folder on your computer (most builders can sync or export to GitHub). Open that folder in Claude Code and run `/lavela-preflight:all` before you point a real domain at the app or send the link to anyone.
+
+For an exported or synced project, the checks look for, in plain terms:
+
+- keys that ended up in browser code or in git history
+- settings and environment variables a real server will need (names only, never values)
+- pages and endpoints that work without logging in, and actions that are only hidden in the page
+- hard-coded `localhost` or preview addresses, login callback URLs and allowed origins
+- data that would be lost on a restart or redeploy
+
 ## Use
 
 Open Claude Code in your project folder and run:

@@ -1,6 +1,6 @@
 ---
 name: secrets
-description: Read-only check for API keys, passwords and tokens hard-coded in a project or left in git history, and for secrets exposed to the browser. Use before deploying. Never prints secret values.
+description: "Read-only check for API keys, passwords and tokens hard-coded in a project or left in git history, and for secrets exposed to the browser. Use before deploying. Never prints secret values."
 allowed-tools: Read Grep Glob Bash(git log *) Bash(git ls-files *) Bash(git check-ignore *)
 disallowed-tools: Edit Write NotebookEdit
 disable-model-invocation: true

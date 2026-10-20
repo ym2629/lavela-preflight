@@ -1,6 +1,6 @@
 ---
 name: errors
-description: Read-only check of whether the owner would find out when something breaks after launch: error handling, logging, health checks and alerts. Use before deploying.
+description: "Read-only check of whether the owner would find out when something breaks after launch: error handling, logging, health checks and alerts. Use before deploying."
 allowed-tools: Read Grep Glob Bash(git log *) Bash(git ls-files *) Bash(git check-ignore *)
 disallowed-tools: Edit Write NotebookEdit
 disable-model-invocation: true

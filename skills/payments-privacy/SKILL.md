@@ -1,6 +1,6 @@
 ---
 name: payments-privacy
-description: Read-only check for apps that take payments or collect personal data: test versus live mode (by key type only), server-side price calculation, webhook verification, where personal data is stored, and which policy pages exist. Not legal advice.
+description: "Read-only check for apps that take payments or collect personal data: test versus live mode (by key type only), server-side price calculation, webhook verification, where personal data is stored, and which policy pages exist. Not legal advice."
 allowed-tools: Read Grep Glob Bash(git log *) Bash(git ls-files *) Bash(git check-ignore *)
 disallowed-tools: Edit Write NotebookEdit
 disable-model-invocation: true
