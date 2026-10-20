@@ -1,0 +1,16 @@
+{
+  "name": "lavela",
+  "owner": {
+    "name": "lavela"
+  },
+  "plugins": [
+    {
+      "name": "lavela-preflight",
+      "source": "./",
+      "description": "Read-only pre-deployment checks for apps and games built with AI."
+    }
+  ],
+  "metadata": {
+    "description": "Free, read-only tools that help people check an app or game built with AI before they put it online."
+  }
+}
